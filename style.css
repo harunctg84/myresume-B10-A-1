@@ -34,8 +34,8 @@ body {
 .banner-content h2 {
   font-size: 30px;
 }
-.banner-content p {
-  color: rgb(135, 139, 145);
+.ass-color {
+  color: rgb(119, 125, 135);
 }
 
 .btn {
@@ -140,6 +140,30 @@ button {
 .my-terget {
   text-align: center;
   max-width: 1140px;
-  padding: 0 110px;
+  padding: 0 60px;
   margin: 0 100px;
+}
+.skills {
+  max-width: 1140px;
+  padding: 0 140px;
+  margin: 0 0px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.html-skill {
+  background-color:#fff6f4 ;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+.js-skill {
+  background-color:#e6edfa;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+.css-skill {
+  background-color:#fdfae6;
+  padding: 15px 15px;
+  border-radius: 10px;
 }
