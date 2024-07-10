@@ -186,6 +186,9 @@ button {
 .input-text {
   text-align: center;
 }
+.input-para {
+  columns: #f7e8e8;
+}
 input[type="text"] {
   height: 35px;
   width: 250px;
@@ -198,4 +201,13 @@ button {
   border: 1px solid #817f7f;
   padding: 6px 30px;
   margin-top: 10px;
+}
+footer {
+  background-color:aliceblue ;
+  max-width: 1140px;
+  margin: 0 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  
 }
