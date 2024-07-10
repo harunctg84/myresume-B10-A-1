@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
-/* * {
-  margin: 0 auto;
-  padding: 0;
-    box-sizing: border-box;} */
 
 body {
   font-family: Azeret Mono;
@@ -35,7 +31,7 @@ body {
   font-size: 30px;
 }
 .ass-color {
-  color: rgb(119, 125, 135);
+  color: rgb(155, 164, 179);
 }
 
 .btn {
@@ -89,7 +85,7 @@ body {
 .heading-area {
   padding: 30px 40px;
   width: 900px;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(243, 208, 208);
   border-radius: 10px;
 }
 .head-para {
@@ -121,15 +117,16 @@ button {
   padding: 0 110px;
   margin: 0 100px;
 }
+
 .video-box {
-  max-width: 1140px;
-  margin: 0 110px;
+  max-width: 1000px;
+  margin: 0 100px;
   height: 500px;
   border: 2px solid rgb(176, 172, 172);
   border-radius: 10px;
 }
 .youtube-box {
-  max-width: 900px;
+  max-width: 800px;
   height: 400px;
   margin: 40px auto;
 }
@@ -153,17 +150,52 @@ button {
 }
 
 .html-skill {
-  background-color:#fff6f4 ;
+  background-color: #fff6f4;
   padding: 15px 15px;
   border-radius: 10px;
 }
 .js-skill {
-  background-color:#e6edfa;
+  background-color: #e6edfa;
   padding: 15px 15px;
   border-radius: 10px;
 }
 .css-skill {
-  background-color:#fdfae6;
+  background-color: #fdfae6;
   padding: 15px 15px;
   border-radius: 10px;
+}
+.input-section {
+  background-image: url("assets/handshake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1140px;
+  height: 200px;
+  padding: 0 60px;
+  margin: 20px 100px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-title {
+  color: white;
+  text-align: center;
+}
+.input-text {
+  text-align: center;
+}
+input[type="text"] {
+  height: 35px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
+
+button {
+  border: 1px solid #817f7f;
+  padding: 6px 30px;
+  margin-top: 10px;
 }
