@@ -23,9 +23,14 @@ body {
   font-size: 30px;
 }
 .main-section {
-  max-width: 1140px;
-  margin: 0 auto;
+  max-width: 1240px;
+  padding: 0 63px;
 }
+.banner-section {
+  max-width: 1140px;
+  padding: 0 100px;
+}
+
 .banner-content h2 {
   font-size: 30px;
 }
@@ -51,7 +56,7 @@ body {
 .banner-content {
   width: 938px;
   height: 547px;
-  margin: 0 80px;
+  margin: 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -82,13 +87,12 @@ body {
   padding: 0 110px;
 }
 .heading-area {
-  padding: 50px 40px;
+  padding: 30px 40px;
   width: 900px;
-  height: 1000px;
   background-color: rgb(245, 245, 245);
   border-radius: 10px;
 }
-.head-para{
+.head-para {
   text-align: center;
 }
 .section-title {
@@ -96,16 +100,46 @@ body {
 }
 .do-code-section {
   background-color: #ffffff;
-  padding: 0 20px;
+  padding: 10px 20px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-button{
- background-color: #ffffff;
+button {
+  background-color: #ffffff;
   padding: 8px 20px;
   border: 1px solid black;
   border-radius: 5px;
   font-size: 20px;
+}
+
+/* My-inspiration style */
+.my-inspiration {
+  text-align: center;
+  max-width: 1140px;
+  padding: 0 110px;
+  margin: 0 100px;
+}
+.video-box {
+  max-width: 1140px;
+  margin: 0 110px;
+  height: 500px;
+  border: 2px solid rgb(176, 172, 172);
+  border-radius: 10px;
+}
+.youtube-box {
+  max-width: 900px;
+  height: 400px;
+  margin: 40px auto;
+}
+.ytube {
+  border-radius: 10px;
+}
+/* My Current Target style  */
+.my-terget {
+  text-align: center;
+  max-width: 1140px;
+  padding: 0 110px;
+  margin: 0 100px;
 }
